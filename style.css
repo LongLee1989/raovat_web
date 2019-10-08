@@ -1,0 +1,92 @@
+body{
+	margin-top: 20px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #5BBD2B;
+  position: fixed; /* dòng này để giữ menu cố định, các bạn có thể thử xóa dòng này đi để thấy sự khác biệt :) */
+  top: 0;
+  width: 100%;
+  height: 199px;
+  margin-top: 10px;
+}
+
+#search{
+	/*text-align: center;*/
+	width: 100%;
+	height: 50px;
+	/*margin: 20px;*/
+	background-color: #FFFFFF;
+}
+
+#image_logo{
+	width: 80px;
+	height: 40px;
+}
+
+#input_search{
+	float: right;
+}
+
+#input_submit{
+	float: right;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.gradient{
+	margin-top: 49px;
+	width: 100%;
+	height: 100px;
+	background: -webkit-radial-gradient(center center, ellipse farthest-corner, #ffffff 0%, #cc0000 100%);
+}
+
+.content{
+	padding-top: 200px;
+	display: flex;
+    justify-content: space-between;
+    margin-left: -20px;
+    flex-flow: row wrap;
+}
+
+.content1{
+	flex: 1 0;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.content_Loc{
+	background-color: #5BBD2B;
+	text-align: center;
+}
+
+#web_Loc{
+	padding: 10px;
+}
+
+.contact_Loc{
+	display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: -16px;
+}
+
+.contact{
+	flex: 1 0;
+    background-color: #367517;
+    padding: 20px;
+}
+
